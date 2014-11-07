@@ -10,16 +10,17 @@
 <head>
   <title>Rowlett Glory Automotive</title>
 
-  <link type="text/css" href="/resources/css/bootstrap.min.css"/>
-  <link type="text/css" href="/resources/css/site.css" />
+  <link type="text/css" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"/>
+  <link type="text/css" href="${pageContext.request.contextPath}/resources/css/site.min.css" />
 </head>
 <body>
   <div class="container">
     ${message}
   </div>
 
-  <script type="application/javascript" src="/resources/js/jquery-1.11.0.min.js"></script>
-  <script type="application/javascript" src="/resources/js/bootstrap.min.js"></script>
-  <script type="application/javascript" src="/resources/js/angular.min.js"></script>
+  <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/jquery-1.11.0.min.js"></script>
+  <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+  <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/angular.min.js"></script>
+  <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/site.min.js"></script>
 </body>
 </html>
