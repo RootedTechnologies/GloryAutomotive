@@ -2,8 +2,68 @@
 $rga-background: #2c2c2c;
 $rga-primary: #b50c00;
 $rga-secondary: #0c1b5e;
+$rga-gray: #d0d0d0;
+$rga-darkgray: #2c2c2c;
 
 body {
   background-color: $rga-background;
   color: #ffffff;
+  font-family: Arial;
+}
+
+//
+.navbar-nav li {
+  .navbar-underline {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background-color: $rga-secondary;
+    margin-bottom: -1;
+  }
+  &.active {
+    .navbar-underline {
+      display: inline-block
+    }
+  }
+}
+
+//main content
+.color-divider{
+  height: 10px;
+  width: 100%;
+  float: left;
+  display: block;
+  &.version-one {
+    background-color: #32fcd9;
+  }
+  &.version-two {
+    background-color: #ffe972;
+  }
+  &.version-three {
+    background-color: #e89553;
+  }
+}
+
+.info-section {
+  &.one-stop {
+    background-color: $rga-gray;
+    color: $rga-darkgray;
+  }
+  &.full-service {
+    background-color: $rga-primary;
+    color: #ffffff;
+    .subtitle {
+      color: #ffffff;
+    }
+  }
+  .subtitle {
+    font-size: 26px;
+    color: $rga-primary;
+  }
+  .description {
+    font-size: 24px;
+  }
 }
