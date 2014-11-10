@@ -7,7 +7,7 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/site.min.js" />
+      <root url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.min.js" />
       <root url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/angular.min.min.js" />
     </CLASSES>
     <JAVADOC />

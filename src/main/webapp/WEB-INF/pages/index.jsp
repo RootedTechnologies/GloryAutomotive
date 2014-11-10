@@ -44,6 +44,9 @@
     <div class="row">
       <div class="col-xs-12 color-divider version-one"></div>
       <div class="col-xs-12 info-section one-stop">
+        <div class="title">
+          Affordable Auto Repair from Mechanics You Can Trust
+        </div>
         <div class="subtitle">
           Your one stop automotive repair in Rowlett, Texas
         </div>
@@ -70,6 +73,7 @@
           </div>
         </div>
       </div>
+      <div class="col-xs-12 color-divider version-two"></div>
       <div class="col-xs-12 info-section full-service">
         <div class="row subtitle">
           <div class="col-xs-12">
@@ -107,12 +111,95 @@
           </div>
         </div>
       </div>
+      <div class="col-xs-12 color-divider version-three"></div>
+      <div class="col-xs-12 google-map" id="google-map">
+
+      </div>
+      <div class="col-xs-12 color-divider version-one"></div>
+      <div class="col-xs-12 info-section here-to-serve">
+        <div class="row title">
+          We're Here To Serve You
+        </div>
+        <div class="row description">
+          <div class="col-xs-12 col-md-6">
+            <div class="row">
+              <div class="col-xs-12">
+                You can contact us in Rowlett, Texas, to schedule automotive repair services for your vehicle today by calling us at <span class="highlight">214-440-1661</span> or using the form below:
+              </div>
+            </div>
+            <div class="row">
+              <form id="contact-form" class="contact-form">
+                <div class="col-xs-12">
+                  <input id="contact-name" class="form-control" placeholder="Name"/>
+                </div>
+                <div class="col-xs-12">
+                  <input id="contact-email" class="form-control" placeholder="Email"/>
+                </div>
+                <div class="col-xs-12">
+                  <input id="contact-phone" class="form-control" placeholder="Phone"/>
+                </div>
+                <div class="col-xs-12">
+                  <input id="contact-subject" class="form-control" placeholder="Subject"/>
+                </div>
+                <div class="col-sm-4">
+                  <select id="contact-make" class="form-control">
+                    <option value="">Select Make</option>
+                    <option value="ford">Ford</option>
+                    <option value="dodge">Dodge</option>
+                    <option value="chevrolet">Chevrolet</option>
+                  </select>
+                </div>
+                <div class="col-sm-4">
+                  <select id="contact-model" class="form-control">
+                    <option value="">Select Model</option>
+                  </select>
+                </div>
+                <div class="col-sm-4">
+                  <select id="contact-year" class="form-control">
+                    <option value="">Select Year</option>
+                  </select>
+                </div>
+                <div class="col-xs-12">
+                  <input type="submit" id="submit-contact-form" class="btn btn-block btn-primary" />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 color-divider version-two"></div>
+      <div class="col-xs-12 info-section warranty">
+        <div class="row title">
+          We Stand Behind Our Work
+        </div>
+        <div class="row description">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            Along with accepting many after market warranties, we stand behind the work of our ASE Certified Mechanics and offer a 12 month/12,000 mile warranty on all of our work (unless otherwise stated).
+
+            We guarantee you'll be happy with the work we do at Rowlett Glory Automotive.
+
+            Just give us a call and we'll be glad to discuss how we go to work for you.
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 color-divider version-three"></div>
     </div>
   </div>
-
+  <script type="text/html" id="map-details-template" >
+    <div class="content">
+      <span class="map-title">{{name}}</span>
+      <span class="map-address">{{line1}}</span>
+      <span class="map-address">{{line2}}</span>
+    </div>
+  </script>
   <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/jquery-1.11.0.min.js"></script>
   <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
   <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/angular.min.js"></script>
-  <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/site.min.js"></script>
+  <script type="application/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <script type="application/javascript" src="${pageContext.request.contextPath}/resources/js/index.js"></script>
 </body>
 </html>
