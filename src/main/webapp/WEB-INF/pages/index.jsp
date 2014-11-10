@@ -14,7 +14,7 @@
   <link type="text/css" href="${pageContext.request.contextPath}/resources/css/site.min.css" rel="stylesheet"/>
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -30,11 +30,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">HOME</a><div class="navbar-underline"></div></li>
-        <li><a href="#">SERVICES</a><div class="navbar-underline"></div></li>
-        <li><a href="#">LOCATION</a><div class="navbar-underline"></div></li>
-        <li><a href="#">CONTACT US</a><div class="navbar-underline"></div></li>
-        <li><a href="#">WARRANTY</a><div class="navbar-underline"></div></li>
+        <li class="active"><a href="">HOME</a><div class="navbar-underline"></div></li>
+        <li><a href="#services">SERVICES</a><div class="navbar-underline"></div></li>
+        <li><a href="#location">LOCATION</a><div class="navbar-underline"></div></li>
+        <li><a href="#contact-us">CONTACT US</a><div class="navbar-underline"></div></li>
+        <li><a href="#warranty">WARRANTY</a><div class="navbar-underline"></div></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -74,7 +74,7 @@
         </div>
       </div>
       <div class="col-xs-12 color-divider version-two"></div>
-      <div class="col-xs-12 info-section full-service">
+      <div class="col-xs-12 info-section full-service" id="services">
         <div class="row subtitle">
           <div class="col-xs-12">
             Full-Service Repairs
@@ -112,11 +112,11 @@
         </div>
       </div>
       <div class="col-xs-12 color-divider version-three"></div>
-      <div class="col-xs-12 google-map" id="google-map">
+      <div class="col-xs-12 google-map" id="location">
 
       </div>
       <div class="col-xs-12 color-divider version-one"></div>
-      <div class="col-xs-12 info-section here-to-serve">
+      <div class="col-xs-12 info-section here-to-serve" id="contact-us">
         <div class="row title">
           We're Here To Serve You
         </div>
@@ -171,7 +171,7 @@
         </div>
       </div>
       <div class="col-xs-12 color-divider version-two"></div>
-      <div class="col-xs-12 info-section warranty">
+      <div class="col-xs-12 info-section warranty" id="warranty">
         <div class="row title">
           We Stand Behind Our Work
         </div>

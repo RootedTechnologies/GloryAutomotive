@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b6ea6e-9111-48a8-bfd0-fd6406945f91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.min.js" />
-      <change type="DELETED" beforePath="D:\Websites\GloryAuto\GloryAutomotive\target\GloryAutomotive\WEB-INF\resources\js\site.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Websites\GloryAuto\GloryAutomotive\target\GloryAutomotive\WEB-INF\resources\js\site.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/GloryAutomotive.war" afterPath="$PROJECT_DIR$/target/GloryAutomotive.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/pages/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site-fonts.scss" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site-fonts.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.css.map" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/resources/css/site.css.map" afterPath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/resources/css/site.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/resources/css/site.css" afterPath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/resources/css/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/resources/css/site.min.css" afterPath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/resources/css/site.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.scss" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/resources/css/site.scss" afterPath="$PROJECT_DIR$/target/GloryAutomotive/WEB-INF/resources/css/site.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Websites\GloryAuto\GloryAutomotive\src\main\webapp\WEB-INF\resources\js\site.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js" />
-      <change type="MOVED" beforePath="D:\Websites\GloryAuto\GloryAutomotive\src\main\webapp\WEB-INF\resources\js\site.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site-fonts.scss" />
     </list>
     <ignored path="GloryAutomotive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="site.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66961133" vertical-offset="1151" max-vertical-offset="1870">
-              <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+            <state vertical-scroll-proportion="-8.692307" vertical-offset="1151" max-vertical-offset="1887">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -58,8 +49,8 @@
       <file leaf-file-name="site-fonts.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site-fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -75,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9615386" vertical-offset="1963" max-vertical-offset="3553">
-              <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.49186257" vertical-offset="0" max-vertical-offset="3553">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
                 <element signature="n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -90,8 +81,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="765">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -171,10 +162,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap/_navbar.scss" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/site.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site-fonts.scss" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.scss" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
       </list>
     </option>
   </component>
@@ -657,7 +648,7 @@
       <workItem from="1415399024176" duration="726000" />
       <workItem from="1415406047433" duration="1513000" />
       <workItem from="1415483083987" duration="5679000" />
-      <workItem from="1415569911984" duration="14069000" />
+      <workItem from="1415569911984" duration="14716000" />
     </task>
     <task id="LOCAL-00001" summary="Added VCS">
       <created>1415336501152</created>
@@ -681,7 +672,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31580000" />
+    <option name="totallyTimeSpent" value="32227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1159,24 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="765">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site-fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="952">
@@ -1185,21 +1158,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site-fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9615386" vertical-offset="1963" max-vertical-offset="3553">
-          <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/site.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66961133" vertical-offset="1151" max-vertical-offset="1870">
-          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        <state vertical-scroll-proportion="-8.692307" vertical-offset="1151" max-vertical-offset="1887">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49186257" vertical-offset="0" max-vertical-offset="3553">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="n#div#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
