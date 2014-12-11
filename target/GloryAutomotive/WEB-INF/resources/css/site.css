@@ -8,10 +8,21 @@
 @font-face {
   font-family: "Souses";
   src: url("../fonts/Souses.otf"), url("../fonts/Souses.eot"); }
+@font-face {
+  font-family: "LeagueSpartan";
+  font-weight: bold;
+  src: url("../fonts/LeagueSpartan-Bold.otf"), url("../fonts/LeagueSpartan-Bold.eot"); }
 body {
   background-color: #2c2c2c;
   color: #ffffff;
   font-family: 'Champagne-Limousines', Arial; }
+
+.navbar.navbar-fixed-top {
+  max-width: 1170px;
+  margin: auto; }
+
+.container {
+  margin-top: 50px; }
 
 .navbar-nav li .navbar-underline {
   display: none;
@@ -24,6 +35,13 @@ body {
   margin-bottom: -1; }
 .navbar-nav li.active .navbar-underline {
   display: inline-block; }
+
+.logo-banner {
+  background-color: #2c2c2c; }
+
+.family-photo {
+  height: 800px;
+  background-color: #d0d0d0; }
 
 .color-divider {
   height: 10px;

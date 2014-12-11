@@ -13,6 +13,15 @@ body {
   font-family: 'Champagne-Limousines', Arial;
 }
 
+.navbar.navbar-fixed-top {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.container {
+  margin-top: 50px;
+}
+
 //
 .navbar-nav li {
   .navbar-underline {
@@ -30,6 +39,15 @@ body {
       display: inline-block
     }
   }
+}
+
+.logo-banner {
+  background-color: $rga-darkgray;
+}
+
+.family-photo {
+  height: 800px;
+  background-color: $rga-gray;
 }
 
 //main content

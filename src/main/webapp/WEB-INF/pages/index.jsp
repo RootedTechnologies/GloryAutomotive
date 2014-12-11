@@ -40,8 +40,12 @@
   </div><!-- /.container-fluid -->
 </nav>
   <div class="container">
-    ${message}
     <div class="row">
+      <div class="col-xs-12 logo-banner">
+        <img alt="Rowlett Glory Automotive Logo" src="${pageContext.request.contextPath}/resources/images/logo.png" />
+      </div>
+      <div class="col-xs-12 family-photo">
+      </div>
       <div class="col-xs-12 color-divider version-one"></div>
       <div class="col-xs-12 info-section one-stop">
         <div class="title">
