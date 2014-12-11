@@ -15,7 +15,7 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="passParentEnvs" value="true" />
-      <option name="program" value="C:/Ruby21/bin/scss.bat" />
+      <option name="program" value="C:/Ruby193/bin/scss.bat" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="D:\Websites\GloryAuto\GloryAutomotive\src\main\webapp\WEB-INF\resources\css" />
@@ -35,7 +35,7 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="passParentEnvs" value="true" />
-      <option name="program" value="$USER_HOME$/node_modules/yuicompressor/build/yuicompressor-2.4.8.jar" />
+      <option name="program" value="$PROJECT_DIR$/node_modules/yuicompressor/build/yuicompressor-2.4.8.jar" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
@@ -55,7 +55,7 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="passParentEnvs" value="true" />
-      <option name="program" value="$USER_HOME$/node_modules/yuicompressor/build/yuicompressor-2.4.8.jar" />
+      <option name="program" value="$PROJECT_DIR$/node_modules/yuicompressor/build/yuicompressor-2.4.8.jar" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
