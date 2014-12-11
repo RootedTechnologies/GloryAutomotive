@@ -30,11 +30,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="">HOME</a><div class="navbar-underline"></div></li>
-        <li><a href="#services">SERVICES</a><div class="navbar-underline"></div></li>
-        <li><a href="#location">LOCATION</a><div class="navbar-underline"></div></li>
-        <li><a href="#contact-us">CONTACT US</a><div class="navbar-underline"></div></li>
-        <li><a href="#warranty">WARRANTY</a><div class="navbar-underline"></div></li>
+        <li data-link="home" class="active"><a href="">HOME</a><div class="navbar-underline"></div></li>
+        <li data-link="services"><a href="#services">SERVICES</a><div class="navbar-underline"></div></li>
+        <li data-link="location"><a href="#location">LOCATION</a><div class="navbar-underline"></div></li>
+        <li data-link="contact-us"><a href="#contact-us">CONTACT US</a><div class="navbar-underline"></div></li>
+        <li data-link="warranty"><a href="#warranty">WARRANTY</a><div class="navbar-underline"></div></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -43,6 +43,33 @@
     <div class="row">
       <div class="col-xs-12 logo-banner">
         <img alt="Rowlett Glory Automotive Logo" src="${pageContext.request.contextPath}/resources/images/logo.png" />
+      </div>
+      <div class="col-xs-12">
+        <nav class="navbar navbar-default navbar-floating-top" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand hidden" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+              <ul class="nav navbar-nav">
+                <li data-link="home" class="active"><a href="">HOME</a><div class="navbar-underline"></div></li>
+                <li data-link="services"><a href="#services">SERVICES</a><div class="navbar-underline"></div></li>
+                <li data-link="location"><a href="#location">LOCATION</a><div class="navbar-underline"></div></li>
+                <li data-link="contact-us"><a href="#contact-us">CONTACT US</a><div class="navbar-underline"></div></li>
+                <li data-link="warranty"><a href="#warranty">WARRANTY</a><div class="navbar-underline"></div></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
       </div>
       <div class="col-xs-12 family-photo">
       </div>

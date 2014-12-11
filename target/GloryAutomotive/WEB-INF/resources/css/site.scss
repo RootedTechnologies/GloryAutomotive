@@ -18,8 +18,10 @@ body {
   margin: auto;
 }
 
-.container {
-  margin-top: 50px;
+.navbar.navbar-floating-top {
+  margin-bottom: 0;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 //
@@ -121,4 +123,8 @@ body {
   input, select {
     margin: 5px;
   }
+}
+
+.no-margins {
+  margin: 0 !important;
 }
