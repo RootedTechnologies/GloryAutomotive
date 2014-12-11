@@ -2,6 +2,27 @@
  * Created by Cody on 11/6/2014.
  */
 $(document).ready(function () {
+    renderGoogleMap();
+
+    var mainNavBottom = $(".navbar-floating-top").offset().top + $(".navbar-floating-top").height();
+    $(window).scroll(function(){
+        if($(window).scrollTop() >= mainNavBottom){
+            $(".navbar-fixed-top").removeClass("hidden");
+        }
+        else {
+            $(".navbar-fixed-top").addClass("hidden");
+        }
+    });
+
+    $(document).on("click", ".navbar-nav li", function(e) {
+        var $this = $(this);
+        var selectedLink = $this.attr("data-link");
+        $(".navbar-nav li").removeClass("active");
+        $(".navbar-nav li[data-link='" + selectedLink + "']").addClass("active");
+    });
+})
+
+function renderGoogleMap(){
     var mapContainer = $("#location")[0];
     var location = {lat: 32.902231, lng: -96.570547};
     var mapOptions = {
@@ -38,4 +59,4 @@ $(document).ready(function () {
             });
         }
     });
-})
+}
