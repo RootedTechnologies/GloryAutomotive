@@ -14,7 +14,7 @@
   <link type="text/css" href="${pageContext.request.contextPath}/resources/css/site.min.css" rel="stylesheet"/>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top hidden" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
