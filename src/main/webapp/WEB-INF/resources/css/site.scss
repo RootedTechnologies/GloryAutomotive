@@ -26,6 +26,7 @@ body {
 
 //
 .navbar-nav li {
+  font-size: 16px;
   .navbar-underline {
     display: none;
     position: absolute;
@@ -120,8 +121,16 @@ body {
 }
 
 .contact-form {
-  input, select {
+  input, select, textarea {
     margin: 5px;
+    font-size: 16px;
+  }
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  button {
+    font-size: 16px;
   }
 }
 

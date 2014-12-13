@@ -14,7 +14,7 @@
   <link type="text/css" href="${pageContext.request.contextPath}/resources/css/site.min.css" rel="stylesheet"/>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top hidden" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -159,36 +159,39 @@
               </div>
             </div>
             <div class="row">
-              <form id="contact-form" class="contact-form">
+              <form id="contact-form" class="contact-form" action="./contactus/sendmessage" method="post">
                 <div class="col-xs-12">
-                  <input id="contact-name" class="form-control" placeholder="Name"/>
+                  <input id="contact-name" name="contact-name" class="form-control" placeholder="Name"/>
                 </div>
                 <div class="col-xs-12">
-                  <input id="contact-email" class="form-control" placeholder="Email"/>
+                  <input id="contact-email" name="contact-email" class="form-control" placeholder="Email"/>
                 </div>
                 <div class="col-xs-12">
-                  <input id="contact-phone" class="form-control" placeholder="Phone"/>
+                  <input id="contact-phone" name="contact-phone" class="form-control" placeholder="Phone"/>
                 </div>
                 <div class="col-xs-12">
-                  <input id="contact-subject" class="form-control" placeholder="Subject"/>
+                  <input id="contact-subject" name="contact-subject" class="form-control" placeholder="Subject"/>
                 </div>
                 <div class="col-sm-4">
-                  <select id="contact-make" class="form-control">
+                  <select id="contact-make" name="contact-make" class="form-control">
                     <option value="">Select Make</option>
                     <option value="ford">Ford</option>
-                    <option value="dodge">Dodge</option>
+                    <option value="dodge" class="hidden">Dodge</option>
                     <option value="chevrolet">Chevrolet</option>
                   </select>
                 </div>
                 <div class="col-sm-4">
-                  <select id="contact-model" class="form-control">
+                  <select id="contact-model" name="contact-model" class="form-control" disabled="disabled">
                     <option value="">Select Model</option>
                   </select>
                 </div>
                 <div class="col-sm-4">
-                  <select id="contact-year" class="form-control">
+                  <select id="contact-year" name="contact-year" class="form-control" disabled="disabled">
                     <option value="">Select Year</option>
                   </select>
+                </div>
+                <div class="col-xs-12">
+                  <textarea id="contact-body" name="contact-body" class="form-control"></textarea>
                 </div>
                 <div class="col-xs-12">
                   <input type="submit" id="submit-contact-form" class="btn btn-block btn-primary" />
