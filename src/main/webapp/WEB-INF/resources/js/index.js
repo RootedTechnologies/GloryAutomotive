@@ -20,7 +20,20 @@ $(document).ready(function () {
         $(".navbar-nav li").removeClass("active");
         $(".navbar-nav li[data-link='" + selectedLink + "']").addClass("active");
     });
-})
+
+    $("#contact-form").validate({
+       submitHandler: function(form){
+           $(form).ajaxSubmit({
+                success: function() {
+                    alert("Thank you for sending us a message!");
+                },
+                error: function(e){
+                    alert("An error occurred");
+                }
+           });
+       }
+    });
+});
 
 function renderGoogleMap(){
     var mapContainer = $("#location")[0];

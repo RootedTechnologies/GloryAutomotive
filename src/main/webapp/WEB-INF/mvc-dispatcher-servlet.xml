@@ -17,4 +17,10 @@
     </bean>
 
     <mvc:resources mapping="/resources/**" location="/WEB-INF/resources/" />
+
+    <bean id="mailService" class="com.services.MailService">
+        <property name="mandrillApiKey" value="WYzRM_zI9A0L56qM4bHEaw" />
+        <property name="infoEmailAddress" value="info@rootedtechnologies.com" />
+        <property name="subaccount" value="glory-automotive" />
+    </bean>
 </beans>
