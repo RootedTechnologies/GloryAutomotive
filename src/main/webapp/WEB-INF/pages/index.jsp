@@ -176,17 +176,17 @@
                   <select id="contact-make" name="contact-make" class="form-control">
                     <option value="">Select Make</option>
                     <option value="ford">Ford</option>
-                    <option value="dodge">Dodge</option>
+                    <option value="dodge" class="hidden">Dodge</option>
                     <option value="chevrolet">Chevrolet</option>
                   </select>
                 </div>
                 <div class="col-sm-4">
-                  <select id="contact-model" name="contact-model" class="form-control">
+                  <select id="contact-model" name="contact-model" class="form-control" disabled="disabled">
                     <option value="">Select Model</option>
                   </select>
                 </div>
                 <div class="col-sm-4">
-                  <select id="contact-year" name="contact-year" class="form-control">
+                  <select id="contact-year" name="contact-year" class="form-control" disabled="disabled">
                     <option value="">Select Year</option>
                   </select>
                 </div>
